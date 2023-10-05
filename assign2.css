@@ -9,9 +9,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .top{
     padding:0;
     margin:0;
-    height: 40%;
+    height:60%;
     width:100%;
 background-color:#435259;
+/* background-size: cover;
+background-repeat: no-repeat; */
 }
 /* .middle{
     height: 45%;
@@ -69,16 +71,21 @@ html,body{
   .top-para {
     position: absolute; /* set position to absolute */
     top: 15%; /* align to 60px down from the top */
-    left: 50%; /* align 20px from the right */
+    left: 60%; /* align 20px from the right */
     margin-top: 0; /* remove any default margin-top */
     text-align: left; /* align text to the right */
     max-width: 30%;
     float:right;
-    width: 50%;
+    /* width: 50%; */
+    height: 10vh;
+    width: 40vw;
 font-size: medium;
 color: aliceblue;
-  }
 
+  }
+.top-para-middle{
+  font-size: 3vh;
+}
 
 
   input[type="email"] {
@@ -233,7 +240,6 @@ text-orientation: mixed;
   margin-top: 7%;
   margin-left: 5%;
 }
-
 
 @media screen and (max-width:768px) {
   
