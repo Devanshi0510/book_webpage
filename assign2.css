@@ -1,0 +1,299 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+.top{
+    padding:0;
+    margin:0;
+    height: 40%;
+    width:100%;
+background-color:#435259;
+}
+/* .middle{
+    height: 45%;
+    width:100%;
+background-color:rgb(239, 239, 239);
+} */
+.bottom{
+    height: 80%; ;
+    width:100%;
+background-color:#ebeae6;
+}
+html,body{
+    height:100%;
+}
+
+.verse{
+    color: #ab9768;
+    font-size: larger;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.new-poet{
+    color: rgb(231, 244, 255);
+    font-weight: 700;
+    padding-top: 3%;
+    padding-left: 10%;
+    /* font-size: 250%; */
+    font-size: 3em;
+    font-family: Trebuchet MS;
+}
+.side-bar {
+   display: flex;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    /* padding: 10px;
+    padding-right: 10px; */
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .side-bar a {
+    display:line;
+    color: aliceblue;
+    padding: 20px;
+    font-family: Garamond;
+  }
+  
+  .side-bar a:last-child {
+    margin-bottom: 0; /* remove margin-bottom from last anchor element */
+  }
+
+  .top-para {
+    position: absolute; /* set position to absolute */
+    top: 15%; /* align to 60px down from the top */
+    left: 50%; /* align 20px from the right */
+    margin-top: 0; /* remove any default margin-top */
+    text-align: left; /* align text to the right */
+    max-width: 30%;
+    float:right;
+    width: 50%;
+font-size: medium;
+color: aliceblue;
+  }
+
+
+
+  input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #dad2d2;
+    background-color: #dcdcdc;
+    font-family: Cormorant;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+
+
+  button {
+    margin-top: 1rem;
+    padding-inline: 3rem;
+    padding-block: 0.8rem;
+    border: none;
+    font: inherit;
+    color: white;
+    font-size: small;
+    background-color: #ab9768;
+    cursor: pointer;
+  }
+  /* button {
+    margin-top: 1rem;
+    padding-inline: 3rem;
+    padding-block: 0.8rem;
+    border: none;
+    font: inherit;
+    color: white;
+    font-size: medium;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid #dad2d2;
+    background-color: #bb2705;
+    font-family: Cormorant;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+
+  } */
+
+  .para-mid{
+    max-width: 40%;
+    padding-left:10%;
+    padding-top: 2%;
+  }
+  /* .tilted{
+writing-mode: vertical;
+text-orientation: mixed;
+  } */
+
+  .grid-container {
+
+    display: grid;
+  
+    grid-template-columns: auto auto ;
+  
+    background-color:#F5F4F0;;
+  
+    padding: 10px;
+  
+  }
+  
+  .grid-item {
+  
+    background-color: #F5F4F0;  
+    padding: 20px;
+  
+    font-size: 30px;
+  
+    text-align: center;
+  
+  }
+  
+  .subpara{
+  
+    font-size: 15px;
+    color:#425158 ;
+  
+  }
+  
+  .deco{
+  
+    color: #AB9768;
+ 
+    background-color: white;
+  
+    width: 99px;
+  
+    margin: 3px;
+  
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+   
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container > div div {
+    background-color: none;
+    /* width: 100px; */
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
+}
+
+.name{
+  font-size:15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  line-height: 90%;
+}
+.name2{
+  font-size:15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  line-height: 90%;
+}
+.botoom-line
+{
+  font-size: smaller;
+  font-family: Garamond;
+  font-weight: 800;
+  color: #a2977f ;
+  padding-top: 5%;
+  padding-left: 7.5%;
+}
+
+.verticle{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  color:#a2977f;
+  transform: rotate(-90deg);
+  float: left; 
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width:1330px) {
+  
+
+  .top{
+    height: 80%;
+    width:100%;
+}
+.new-poet{
+  padding-top: 10%;
+  font-size: 2em;
+
+}
+.top-para {
+  position: absolute; /* set position to absolute */
+  top: 30%; /* align to 60px down from the top */
+  left: 10%; /* align 20px from the right */
+  margin-top: 0; /* remove any default margin-top */
+  text-align: center; /* align text to the right */
+  max-width: 80%;
+  float:right;
+  width: 80%;
+font-size: medium;
+color: aliceblue;
+}
+.verticle{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  color:#a2977f;
+  transform: rotate(-90deg);
+  float: left; 
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.inpara{
+  max-width: 100%;
+  padding-left:1%;
+  padding-top: 5%;
+  text-align: center;
+  font-size: smaller;
+}
+.viewplaylist{
+padding-left: 5%;
+text-align: center;
+}
+.grid-container{
+  width: 100%;
+  padding-top: 50%;
+  padding: 0%;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding-top: 50px;
+  margin-right: 30%;
+}
+.grid-item{
+  justify-content: center;
+  align-items: center;
+margin-right: 230px;
+}
+.bottom
+{
+  height: fit-content;
+}
+}
